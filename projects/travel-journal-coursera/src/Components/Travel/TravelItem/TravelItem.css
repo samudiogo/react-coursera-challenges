@@ -1,0 +1,58 @@
+.travel-item {
+  display: flex;
+  gap: 20px;
+  & > .travel-item--img-cover {
+    > img {
+      width: 150px;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+  }
+  & > .travel-item--body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    & > .travel-item-location-container {
+      font-size: 14px;
+      & > img {
+        fill: #f55a5a;
+        width: 10px;
+      }
+      & > span {
+        color: #2b283a;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 3.741px;
+        padding-left: 6px;
+        padding-right: 12px;
+      }
+      & > a {
+        color: #918e9b;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration-line: underline;
+      }
+    }
+    & > h2 {
+      color: #2b283a;
+      font-family: Inter;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: bolder;
+      line-height: normal;
+    }
+    & > .--period {
+      font-size: 16px;
+      font-weight: bolder;
+    }
+    & > .--description {
+      max-width: 500px;
+      text-wrap: wrap;
+    }
+  }
+}

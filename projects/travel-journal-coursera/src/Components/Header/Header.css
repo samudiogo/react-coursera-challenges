@@ -1,0 +1,16 @@
+.header {
+  background: #f55a5a;
+  color: #fff;
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  & > .header--logo {
+    width: 48px;
+  }
+  & > .header--title {
+    font-size: 28px;
+  }
+}
