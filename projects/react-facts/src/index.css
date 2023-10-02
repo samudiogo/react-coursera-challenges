@@ -1,0 +1,8 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #282D35;
+}
+#root {
+  font-family: Ubuntu, Verdana, Geneva, Tahoma, sans-serif;
+}
